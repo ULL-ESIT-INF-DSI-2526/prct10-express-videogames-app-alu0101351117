@@ -1,0 +1,43 @@
+{
+  "name": "prct10-express-videogames-app-alu0101351117",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ADpSsjL-) [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=22766434&assignment_repo_type=AssignmentRepo)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "doc": "typedoc",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2526/prct10-express-videogames-app-alu0101351117.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2526/prct10-express-videogames-app-alu0101351117/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct10-express-videogames-app-alu0101351117#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "@types/request": "^2.48.13",
+    "@types/yargs": "^17.0.35",
+    "eslint": "^9.39.3",
+    "eslint-plugin-tsdoc": "^0.5.0",
+    "globals": "^17.3.0",
+    "tsc-watch": "^7.2.0",
+    "typedoc": "^0.28.17",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.0",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "request": "^2.88.2",
+    "yargs": "^18.0.0"
+  }
+}
